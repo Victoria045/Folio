@@ -49,7 +49,7 @@ $('.skill').waypoint(function (){
   $('.progress .progess-bar').each(function (){
     $(this).css("width",$(this).attr("aria-valuenow") + '%');
   });
-}, {offset: '80%'});
+}, {offset: '80'});
 
 
 }  
